@@ -1,0 +1,32 @@
+/**** start header style ****/
+
+.bg-light {
+    background-color: #fff!important;
+    padding: 26px 0;
+    .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-collapse {
+        align-self: flex-end;
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 1.83;
+                color: $gray;
+                font-family: "Avenir";
+                padding: 9px 20px;
+                &.btn-outline-black {
+                    min-width: 140px;
+                    border-radius: 10px;
+                    text-align: center;
+                    border: solid 1px #4d4d4d;
+                    margin-right: 40px;
+                }
+            }
+        }
+    }
+}

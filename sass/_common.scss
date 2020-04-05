@@ -1,0 +1,91 @@
+body {
+    font-family: "Avenir";
+    color: $main-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.title,
+.subtitle {
+    font-family: "CeraPro";
+}
+
+.container {
+    width: 100%;
+    padding: 0 40px;
+    max-width: 1640px;
+}
+
+img {
+    max-width: 100%
+}
+
+.btn {
+    border-radius: 10px;
+    &.btn-white {
+        color: $main-color;
+        border: solid 1px #ffffff;
+        background-color: #ffffff;
+    }
+    &.btn-primary {
+        color: #fff;
+        border: solid 1px $blue;
+        background-color: $blue;
+    }
+    &.btn-outline-primary {
+        color: $blue;
+        border: solid 2px $blue;
+        background-color: transparent;
+    }
+    &.btn-success {
+        color: #fff;
+        border: solid 1px $green;
+        background-color: $green;
+    }
+    &.btn-outline-success {
+        color: $green;
+        border: solid 2px $green;
+        background-color: transparent;
+    }
+    &.btn-warning {
+        color: #fff;
+        border: solid 1px $orange;
+        background-color: $orange;
+    }
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.44;
+    color: #000000;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.38;
+    text-align: center;
+}
+
+.box-shadow {
+    border-radius: 20px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+}
+
+.green-bg {
+    background-color: rgba(170, 255, 82, 0.23);
+}
+
+.blue-bg {
+    background-color: #F5FCFC;
+}
+
+.px-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
