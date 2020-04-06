@@ -25,6 +25,41 @@
                     text-align: center;
                     border: solid 1px #4d4d4d;
                     margin-right: 40px;
+                    transition: all 0.3s ease;
+                    &::after {
+                        display: none;
+                    }
+                    &:hover {
+                        background-color: $orange;
+                        border-color: $orange;
+                        color: #Fff;
+                    }
+                }
+                &::after {
+                    transition: all 0.3s ease;
+                    content: "";
+                    display: block;
+                    width: 50px;
+                    height: 3px;
+                    background: $orange;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                &:hover {
+                    color: $orange;
+                    &::after {
+                        opacity: 1;
+                        visibility: visible
+                    }
+                }
+            }
+            &.active {
+                .nav-link {
+                    color: $orange;
+                    &::after {
+                        opacity: 1;
+                        visibility: visible
+                    }
                 }
             }
         }

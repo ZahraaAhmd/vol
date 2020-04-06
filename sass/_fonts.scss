@@ -84,3 +84,13 @@
 "600",
 "normal",
 "otf");
+@include font-face("helvetica-Roman",
+"../fonts/helveticaneuelt-arabic-55-roman",
+"",
+"",
+"ttf");
+@include font-face("helvetica",
+"../fonts/helvetica-neue-lt-arabic-75-bold",
+"",
+"",
+"ttf");
