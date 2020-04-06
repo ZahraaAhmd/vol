@@ -537,7 +537,7 @@ img {
   top: -100px;
 }
 
-.features .feature {
+.feature {
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
@@ -551,16 +551,16 @@ img {
   background-size: 100% 100%;
 }
 
-.features .feature:hover {
+.feature:hover {
   box-shadow: 1px 15px 19px 0 rgba(0, 0, 0, 0.16);
 }
 
-.features .feature img {
+.feature img {
   max-height: 70px;
   margin-bottom: 15px;
 }
 
-.features .feature h4 {
+.feature h4 {
   font-family: "Avenir";
   font-size: 18px;
   font-weight: 600;
@@ -568,7 +568,7 @@ img {
   color: #4d4d4d;
 }
 
-.features .feature p {
+.feature p {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.44;
