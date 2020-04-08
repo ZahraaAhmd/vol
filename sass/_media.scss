@@ -142,6 +142,18 @@
             order: 1;
             margin-bottom: 25px;
         }
+        .steps .nav-tabs .nav-link {
+            font-size: 15px;
+        }
+        .FAQ .accordion-group .accordion-heading a {
+            font-size: 18px;
+        }
+        .FAQ .accordion-group {
+            padding: 0 15px
+        }
+        .partners img {
+            margin-bottom: 20px;
+        }
     }
     
     @media(max-width:575.5px) {
@@ -238,5 +250,16 @@
             .container {
                 position: relative;
             }
+        }
+        .features .abs-img {
+            max-width: 90px;
+            top: -20px
+        }
+        .features .col-6 {
+            max-width: 100%;
+            flex: 0 0 100%;
+        }
+        .FAQ .inner {
+            padding: 35px 20px
         }
     }

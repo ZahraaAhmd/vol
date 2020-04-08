@@ -30,3 +30,9 @@ $('.list-slider').slick({
         }
     }]
 });
+
+$("document").ready(function() {
+    $(".accordion-heading").click(function() {
+        $(this).parent(".accordion-group").toggleClass("active")
+    })
+})
