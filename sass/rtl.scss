@@ -15,7 +15,8 @@ h5,
 .subtitle,
 .bg-light .navbar-nav .nav-item .nav-link,
 .initiative-list .item .details .btn,
-.feature h4 {
+.feature h4,
+.about-us .services .service {
     font-family: "helvetica-Roman";
 }
 
@@ -71,6 +72,13 @@ h5,
 
 .FAQ .accordion-group .accordion-heading a i {
     float: left;
+}
+
+.about-us .services .service .service-img .ser-type {
+    right: 0;
+    left: auto;
+    font-family: "helvetica-Roman";
+    padding: 4px 10px 10px;
 }
 
 @media (min-width: 992px) {

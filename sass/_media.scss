@@ -154,6 +154,10 @@
         .partners img {
             margin-bottom: 20px;
         }
+        .vol-types .type {
+            height: calc(100% - 35px);
+            margin-bottom: 35px;
+        }
     }
     
     @media(max-width:575.5px) {
@@ -230,6 +234,12 @@
         }
         .initiative-list .slick-arrow.slick-prev {
             right: 58%;
+        }
+        .interests .inner .col-6,
+        .events .col-6 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
         }
     }
     
