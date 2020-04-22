@@ -1,0 +1,188 @@
+/**** interests page style ******/
+
+.interests {
+    padding-top: 70px;
+    .container {
+        width: 100%;
+        padding: 0 40px;
+        max-width: 1500px;
+    }
+    .block-header {
+        .title {
+            margin-bottom: 40px;
+        }
+        p {
+            width: 100%;
+            max-width: 880px;
+            font-size: 20px;
+            line-height: 1.5;
+            color: $main-color;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: -35px;
+            position: relative;
+            z-index: 9;
+        }
+    }
+    .inner {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        -webkit-clip-path: polygon(0 6vw, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 6vw, 100% 0, 100% 100%, 0 100%);
+        background-color: #F5FCFC;
+        .box {
+            border-radius: 10px;
+            box-shadow: 0 3px 10px 0 rgba(213, 213, 213, 0.73);
+            background-color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            height: calc(100% - 30px);
+            margin-bottom: 30px;
+            h4 {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1.65;
+                color: #5e5e5e;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+
+/** events style **/
+
+.events {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    .container {
+        width: 100%;
+        padding: 0 40px;
+        max-width: 1500px;
+    }
+    .col-6 {
+        padding: 0 25px;
+    }
+    .item {
+        box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+        background-color: #ffffff;
+        border-radius: 10px;
+        .item-img {
+            object-fit: cover;
+        }
+    }
+}
+
+
+/******* about us page *******/
+
+.about-us {
+    padding-top: 50px;
+    .head-img {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .about-form {
+        max-width: 930px;
+        margin: 0 auto;
+        label {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 2.06;
+            color: #5e5e5e;
+        }
+        .form-control,
+        .custom-select {
+            border-radius: 10px;
+            border: solid 1px #d5d5d5;
+            height: 45px;
+        }
+        .custom-select:focus,
+        .form-control:focus {
+            border-color: #a7d676;
+            outline: 0;
+            box-shadow: none;
+        }
+        .btn {
+            border-radius: 10px;
+            line-height: 32px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .row {
+            margin: 0;
+            .col-12 {
+                padding: 0 10px
+            }
+        }
+    }
+    .services {
+        margin-top: 70px;
+        @media(min-width: 1200px) {
+            padding: 0 70px;
+        }
+        .service {
+            border-radius: 10px;
+            box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+            background-color: #ffffff;
+            height: calc(100% - 60px);
+            margin-bottom: 60px;
+            font-family: "CeraPro";
+            padding-bottom: 20px;
+            .px-3 {
+                padding: 0 20px
+            }
+            .service-img {
+                position: relative;
+                margin-bottom: 20px;
+                .ser-type {
+                    position: absolute;
+                    background-color: #a7d676;
+                    left: 0;
+                    bottom: 0;
+                    padding: 6px 10px;
+                    font-family: "Avenir";
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #ffffff;
+                }
+                img {
+                    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+                    width: 100%;
+                }
+            }
+            h3 {
+                font-size: 24px;
+                line-height: 1.38;
+                color: #000000;
+            }
+            .rate {
+                opacity: 0.86;
+                border-radius: 10px;
+                background-color: #f2ffe3;
+                padding: 5px 15px;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 1;
+                color: #000000;
+                margin: 0px 0 10px 0;
+                display: inline-block;
+                .fa {
+                    color: #fdd84c;
+                }
+            }
+            p {
+                font-size: 14px;
+                line-height: 1.43;
+                color: #000000;
+            }
+            a {
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 1.35;
+                color: #a7d676;
+                text-decoration: underline;
+            }
+        }
+    }
+}
