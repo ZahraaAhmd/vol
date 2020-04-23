@@ -93,6 +93,27 @@ h5,
     padding: 7px 11px 11px 11px;
 }
 
+.master .master-box p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.speakers .inner .speaker-img .abs-div {
+    right: 0;
+    left: auto;
+}
+
+.speakers .inner .row:nth-child(even) {
+    text-align: left;
+    .speaker-img {
+        text-align: left;
+        .abs-div {
+            right: auto;
+            left: 0;
+        }
+    }
+}
+
 @media (min-width: 992px) {
     .hero .inner-block {
         padding-left: 30px;

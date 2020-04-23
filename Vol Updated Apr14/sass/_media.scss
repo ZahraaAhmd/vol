@@ -77,6 +77,35 @@
         .map .inner-block .bg {
             background-image: linear-gradient(51deg, #9ad4d8 28%, rgba(154, 212, 216, 0.53) 86%);
         }
+        .speakers .inner {
+            .col-3 {
+                -ms-flex: 0 0 200px;
+                flex: 0 0 200px;
+                max-width: 200px;
+            }
+            .col-9 {
+                -ms-flex: 0 0 calc(100% - 200px);
+                flex: 0 0 calc(100% - 200px);
+                max-width: calc(100% - 200px);
+            }
+        }
+        .speakers .inner .speaker-img {
+            padding: 30px 15px;
+        }
+        .speakers .inner .row {
+            align-items: center;
+        }
+        .speakers .inner .speaker-img .abs-div {
+            width: 255px;
+            height: 255px;
+        }
+        .speakers .inner .speaker-img img {
+            width: 140px;
+            height: 140px;
+        }
+        .themes .col-6 {
+            margin-bottom: 30px;
+        }
     }
     
     @media(max-width:767.98px) {
@@ -188,6 +217,24 @@
                 }
             }
         }
+        .speakers .inner .col-3,
+        .speakers .inner .row .col-9 {
+            -ms-flex: 0 0 200px;
+            flex: 0 0 100%;
+            max-width: 100%;
+            text-align: center !important;
+        }
+        .speakers .inner .speaker-img {
+            height: auto;
+            text-align: center !important;
+        }
+        .speakers .inner .speaker-img .abs-div {
+            left: calc(50% - 120px) !important;
+            right: auto !important;
+        }
+        .speakers .inner .row:nth-child(even) .col-3 {
+            order: 1;
+        }
     }
     
     @media(max-width:575.5px) {
@@ -214,7 +261,8 @@
         .steps .row .col-sm-4,
         .features .row .col,
         footer .col-4,
-        footer .bottom-footer .col-6 {
+        footer .bottom-footer .col-6,
+        .themes .col-6 {
             -ms-flex: 0 0 100%;
             flex: 0 0 100%;
             max-width: 100%;
