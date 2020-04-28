@@ -128,6 +128,20 @@ h5,
     border-bottom-right-radius: 0;
 }
 
+.hero-inner.hero .inner-block {
+    .text-box {
+        max-width: 645px;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .hero.hero-inner .inner-block .hero-bg {
+        padding-right: 140px;
+        padding-left: 30px;
+    }
+}
+
 @media (min-width: 992px) {
     .hero .inner-block {
         padding-left: 30px;
