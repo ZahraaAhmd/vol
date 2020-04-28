@@ -483,6 +483,13 @@
         border-color: #a7d676;
         height: 45px;
     }
+    .form-group {
+        margin-bottom: 0;
+    }
+    &.row {
+        align-items: center;
+        margin-bottom: 5px;
+    }
     .search {
         position: relative;
         .form-control {
