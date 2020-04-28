@@ -137,6 +137,7 @@
 
 .hub {
     position: relative;
+    padding-top: 60px;
     .hub-box {
         position: relative;
         z-index: 9;
@@ -189,7 +190,7 @@
     .abs-img {
         position: absolute;
         right: 0;
-        top: 20px;
+        top: 0px;
         max-width: 275px;
     }
 }
