@@ -291,8 +291,12 @@
     img {
         height: 200px;
         width: 100%;
-        object-fit: cover;
     }
+    .banner-block {
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+    margin-bottom: 30px;
 }
 
 
@@ -441,6 +445,46 @@
 
 /***** video-page style ******/
 
+.search-block {
+    .page-title {
+        font-family: "CeraPro";
+        font-size: 36px;
+        font-weight: bold;
+        color: #4d4d4d;
+    }
+    .form-control {
+        border-color: #a7d676;
+        height: 45px;
+    }
+    .form-group {
+        margin-bottom: 0;
+    }
+    &.row {
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .search {
+        position: relative;
+        .form-control {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .btn {
+            position: absolute;
+            right: 15px;
+            top: -0.5px;
+            border-radius: 6px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            background-color: #a7d676;
+            width: 100px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 31px;
+        }
+    }
+}
+
 .video-page {
     padding-bottom: 30px;
     position: relative;
@@ -454,11 +498,21 @@
         clip-path: polygon(0 6vw, 100% 0, 100% 100%, 0 100%);
         background-color: rgba(245, 252, 252, 0.63);
     }
+    .search-block {
+        margin-bottom: 75px;
+    }
     .inner-block {
         border-radius: 10px;
         background-color: #ffffff;
         position: relative;
-        padding: 50px;
+        padding: 30px 50px;
+        .agenda-day {
+            color: #000;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: "CeraPro";
+            text-transform: capitalize;
+        }
         .events {
             padding-top: 10px;
             padding-bottom: 0;
@@ -512,45 +566,12 @@
             visibility: visible;
         }
     }
-}
-
-.search-block {
-    .page-title {
-        font-family: "CeraPro";
-        font-size: 36px;
-        font-weight: bold;
-        color: #4d4d4d;
+    .slick-slide {
+        padding: 15px 10px;
     }
-    .form-control {
-        border-color: #a7d676;
-        height: 45px;
-    }
-    .form-group {
-        margin-bottom: 0;
-    }
-    &.row {
-        align-items: center;
-        margin-bottom: 5px;
-    }
-    .search {
-        position: relative;
-        .form-control {
-            padding-left: 50px;
-            padding-right: 50px;
-        }
-        .btn {
-            position: absolute;
-            right: 15px;
-            top: -0.5px;
-            border-radius: 6px;
-            border-top-left-radius: 0;
-            border-bottom-left-radius: 0;
-            background-color: #a7d676;
-            width: 100px;
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 31px;
-        }
+    .slick-prev:before,
+    .slick-next:before {
+        display: none !important;
     }
 }
 
