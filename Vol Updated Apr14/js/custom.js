@@ -64,8 +64,8 @@ $(".event-slider").slick({
     arrows: true,
     infinite: true,
     speed: 800,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    /*autoplay: true,
+    autoplaySpeed: 2000,*/
     slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow: '<button class="slick-prev"><img src="images/event-left.svg"></button>',
