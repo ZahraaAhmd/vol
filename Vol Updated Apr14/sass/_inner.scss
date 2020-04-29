@@ -286,14 +286,6 @@
         }
     }
     &.home-video {
-        .video-block {
-            max-width: 899px;
-            margin: 0 auto
-        }
-        p {
-            max-width: 899px;
-            margin: 20px auto 0 auto;
-        }
         .video-box {
             width: 100%;
             max-width: 1533px;
@@ -303,6 +295,30 @@
             background-color: #ffffff;
             padding-top: 55px;
             padding-bottom: 55px;
+            .inner-video-block {
+                max-width: 930px;
+                margin: 0 auto;
+                position: relative;
+                padding: 15px;
+                p {
+                    margin: 20px auto 0 auto;
+                }
+                .box-bg {
+                    background-image: url("../images/v-top.svg"), url("../images/v-bottom.svg");
+                    background-position: top left, /* this positions the first image */
+                    bottom right;
+                    /* this positions the second image */
+                    background-repeat: no-repeat;
+                    padding: 20px 20px 10px 20px;
+                    position: relative;
+                    z-index: 3;
+                }
+                .circle-img {
+                    position: absolute;
+                    left: -47px;
+                    top: 0;
+                }
+            }
         }
     }
 }

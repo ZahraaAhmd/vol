@@ -169,19 +169,30 @@
     <!-- end section themes -->
 
     <!-- start section -->
-    <section class="vol-video mt-5 pt-5">
+    <section class="vol-video mt-5 pt-5 home-video">
         <div class="container">
-            <div class="title title2"><span>Set Title Here</span></div>
-            <div class="video-box mt-5">
-                <div class="video-block">
-                    <iframe width="100%" height="580" src="https://www.youtube.com/embed/nzF3aQh_P70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+            <div class="video-box mt-5">
+                <div class="title">The Virtual Majlis</div>
+                <div class="inner-video-block">
+                    <img src="images/v-circle.svg" class="circle-img">
+                    <div class="box-bg">
+                        <div class="video-block">
+                            <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+                                <img src="images/video.jpg" style="width:100%; cursor:pointer;height:480px;margin-bottom: 5px;border-radius: 4px;" />
+
+                            </div>
+                            <div style="display:none">
+                                <iframe width="100%" height="480" src="https://www.youtube.com/embed/nzF3aQh_P70" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <p><strong>ADNOC Virtual Majlis insights_Ep 01_Segment 01_HD</strong></p>
                 </div>
-                <p><strong>ADNOC Virtual Majlis insights_Ep 01_Segment 01_HD</strong></p>
             </div>
         </div>
     </section>
-
+    <!-- end section -->
     <!-- start section speakers  -->
     <section class="speakers">
         <div class="title title2"><span>Speakers</span></div>
