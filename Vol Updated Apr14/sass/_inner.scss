@@ -87,8 +87,8 @@
         .play-video {
             position: absolute;
             z-index: 9;
-            top: calc(50% - 35px);
-            left: calc(50% - 30px);
+            top: calc(50% - 25px);
+            left: calc(50% - 25px);
         }
     }
 }
@@ -217,6 +217,12 @@
         border-radius: 20px;
         box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
         background-color: rgba(242, 255, 227, 0.43);
+        &.no-shadow {
+            padding: 0;
+            border-radius: 0;
+            box-shadow: none;
+            background-color: transparent;
+        }
         h3 {
             font-size: 36px;
             font-weight: bold;
@@ -380,17 +386,16 @@
     margin-bottom: 30px;
     h1 {
         position: absolute;
-        bottom: 20px;
         width: 100%;
-        text-align: center;
         font-size: 36px;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
         line-height: 1.25;
         letter-spacing: normal;
-        /* text-align: left; */
         color: #4d4d4d;
+        padding: 0 75px;
+        top: calc(50% - 25px);
     }
 }
 
@@ -579,19 +584,17 @@
             line-height: 31px;
         }
     }
-    .nav-tabs {
+    .nav-pills {
         padding: 0;
         margin-top: 0;
         .nav-link {
-            width: 146px;
-            height: 53px;
             border-radius: 10px;
             background-color: rgba(170, 255, 82, 0.23);
             text-align: center;
             line-height: 35px;
             margin: 0 3px;
             font-family: "CeraPro";
-            font-size: 20px;
+            font-size: 18px;
             font-weight: bold;
             color: #5e5e5e;
             &.active {
@@ -633,21 +636,34 @@
         .events {
             padding-top: 10px;
             padding-bottom: 0;
+            .row {
+                margin: 0;
+            }
             .col-6 {
                 padding: 0 12px;
             }
             .item {
                 box-shadow: none;
+                width: 100%;
+                border-radius: 10px;
+                border: solid 1px #a7d676;
+                margin-bottom: 15px;
+                .event-video {
+                    padding: 0;
+                }
                 .event-video::after,
                 .item-img {
                     box-shadow: none;
                 }
+                .item-img {
+                    height: 132px;
+                    border-radius: 10px;
+                }
                 .event-video::after {
-                    border-top-left-radius: 10px;
-                    border-top-right-radius: 10px;
+                    border-radius: 10px;
                 }
                 .details {
-                    padding: 8px 0;
+                    padding: 25px 30px;
                     h3 {
                         font-size: 18px;
                         font-weight: bold;
@@ -673,15 +689,7 @@
     }
     .play-video {
         width: 50px;
-        /* opacity: 0;
-        visibility: hidden; */
         transition: all 0.3s ease;
-    }
-    .item:hover {
-        /* .play-video {
-            opacity: 1;
-            visibility: visible;
-        } */
     }
     .slick-slide {
         padding: 15px 10px;
