@@ -135,6 +135,12 @@ h5,
     }
 }
 
+.search-block .search {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 0;
+}
+
 @media (min-width: 992px) {
     .hero.hero-inner .inner-block .hero-bg {
         padding-right: 140px;
