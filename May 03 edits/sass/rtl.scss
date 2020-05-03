@@ -139,6 +139,16 @@ h5,
     position: relative;
 }
 
+.agenda .vol-event {
+    padding: 9px;
+    padding-right: 23px;
+}
+
+.agenda .vol-event::after {
+    left: auto;
+    right: 6px;
+}
+
 @media (min-width: 992px) {
     .hero.hero-inner .inner-block .hero-bg {
         padding-right: 140px;
