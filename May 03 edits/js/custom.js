@@ -59,6 +59,34 @@ $(".partner-slide").slick({
         }
     ]
 });
+$(".customer-logos.slider").slick({
+    dots: false,
+    arrows: true,
+    infinite: true,
+    speed: 800,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    prevArrow: '<button class="slick-prev"><i class="fa fa-angle-left"></i></button>',
+    nextArrow: '<button class="slick-next"><i class="fa fa-angle-right"></i></button>',
+
+    responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        }
+    ]
+});
 $(".event-slider").slick({
     dots: false,
     arrows: true,
