@@ -1,0 +1,103 @@
+/**** start header style ****/
+
+.bg-light {
+    background-color: #fff!important;
+    padding: 26px 0;
+    box-shadow: 0 3px 6px 0 #f9f9f9;
+    .navbar-brand {
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-collapse {
+        align-self: flex-end;
+    }
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 1.83;
+                color: $gray;
+                font-family: "Avenir";
+                padding: 9px 20px;
+                &.btn-outline-black {
+                    min-width: 140px;
+                    border-radius: 10px;
+                    text-align: center;
+                    border: solid 1px #4d4d4d;
+                    margin-right: 40px;
+                    transition: all 0.3s ease;
+                    &::after {
+                        display: none;
+                    }
+                    &:hover {
+                        background-color: $orange;
+                        border-color: $orange;
+                        color: #Fff;
+                    }
+                }
+                &.btn-warning {
+                    background-color: $orange;
+                    min-width: 140px;
+                    border-radius: 10px;
+                    text-align: center;
+                    border: solid 1px $orange;
+                    transition: all 0.3s ease;
+                    &::after {
+                        display: none;
+                    }
+                    &:hover {
+                        background-color: transparent;
+                        border-color: $orange;
+                        color: $orange !important;
+                    }
+                }
+                &::after {
+                    transition: all 0.3s ease;
+                    content: "";
+                    display: block;
+                    width: 50px;
+                    height: 3px;
+                    background: $orange;
+                    opacity: 0;
+                    visibility: hidden;
+                }
+                &:hover {
+                    color: $orange;
+                    &::after {
+                        opacity: 1;
+                        visibility: visible
+                    }
+                }
+            }
+            &.active {
+                .nav-link {
+                    color: $orange;
+                    &::after {
+                        opacity: 1;
+                        visibility: visible
+                    }
+                }
+            }
+        }
+    }
+    .user-dropdown {
+        .dropdown-toggle {
+            padding: 0 20px;
+            img {
+                width: 54px;
+                height: 54px;
+                border-radius: 50%;
+            }
+        }
+    }
+    @media(max-width:1421px) {
+        .bg-light .navbar-nav .nav-item .nav-link.btn-outline-black {
+            margin-right: 15px;
+        }
+        .bg-light .navbar-nav .nav-item .nav-link {
+            padding: 9px 15px;
+            font-size: 16px;
+        }
+    }
+}

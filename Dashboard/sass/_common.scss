@@ -1,0 +1,158 @@
+body {
+    font-family: "Avenir";
+    color: $main-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.title,
+.subtitle {
+    font-family: "CeraPro";
+}
+
+.container {
+    width: 100%;
+    padding: 0 40px;
+    max-width: 1640px;
+}
+
+img {
+    max-width: 100%
+}
+
+.btn {
+    border-radius: 10px;
+    &.btn-white {
+        color: $main-color;
+        border: solid 1px #ffffff;
+        background-color: #ffffff;
+    }
+    &.btn-primary {
+        color: #fff;
+        border: solid 1px $blue;
+        background-color: $blue;
+    }
+    &.btn-outline-primary {
+        color: $blue;
+        border: solid 2px $blue;
+        background-color: transparent;
+    }
+    &.btn-success {
+        color: #fff;
+        border: solid 1px $green;
+        background-color: $green;
+    }
+    &.btn-outline-success {
+        color: $green;
+        border: solid 2px $green;
+        background-color: transparent;
+    }
+    &.btn-warning {
+        color: #fff;
+        border: solid 1px $orange;
+        background-color: $orange;
+    }
+    &.btn-purple {
+        color: #fff;
+        border: solid 1px $purple;
+        background-color: $purple;
+        &:hover {
+            background-color: #000 !important;
+            border-color: #000 !important;
+        }
+    }
+    &.btn-outline-purple {
+        color: $purple;
+        border: solid 2px $purple;
+        background-color: transparent;
+        &:hover {
+            background-color: #000 !important;
+            border-color: #000 !important;
+        }
+    }
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.44;
+    color: #000000;
+    text-align: center;
+    &.title2 {
+        color: $main-color;
+        span {
+            display: inline-block;
+            position: relative;
+            &::after {
+                content: "";
+                display: block;
+                width: 100%;
+                width: 100%;
+                height: 15px;
+                background-color: rgba(170, 255, 82, 0.23);
+                position: absolute;
+                bottom: 4px;
+            }
+        }
+    }
+}
+
+.subtitle {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.38;
+    text-align: center;
+}
+
+.box-shadow {
+    border-radius: 20px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+}
+
+.green-bg {
+    background-color: rgba(170, 255, 82, 0.23);
+}
+
+.blue-bg {
+    background-color: #F5FCFC;
+}
+
+.purple-bg {
+    background-color: rgba(244, 213, 255, 0.4);
+}
+
+.px-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.nav-tabs {
+    border-radius: 36px;
+    border: 0;
+    display: inline-flex;
+    padding: 0;
+    list-style-type: none;
+    list-style: none;
+    padding: 6px 8px 5px 8px;
+    margin-top: 25px;
+    .nav-link {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.39;
+        color: #5e5e5e;
+        border-radius: 36px;
+        &.active {
+            border: 0;
+            border-radius: 36px;
+            background-color: #ffffff;
+            color: #85cbcd !important;
+        }
+    }
+}
+
+.tab-content {
+    padding-top: 70px;
+}
