@@ -3,6 +3,9 @@
     position: relative;
     .row {
         margin: 0 -5px;
+        &.top-col {
+            margin: 0;
+        }
     }
     .blue-text {
         color: #0f497b !important;
