@@ -148,6 +148,7 @@ for (var i = 0; i < els_selectAll.length; i++) {
 }
 
 $("document").ready(function() {
+    $(".save-edits").hide();
     $(".manage-block").click(function() {
         $(".manage-block").parent(".menu-block").removeClass("editable");
         $(this).parent(".menu-block").addClass("editable");
@@ -167,7 +168,17 @@ $("document").ready(function() {
     $(".close-modal").click(function() {
         $(this).parents(".menu-block").removeClass("editable");
         $(".menu-overly").hide();
-    })
+    });
+    $(".edit-job").click(function() {
+        $(this).hide();
+        $(this).parent(".box").find(".inner-box").attr('contenteditable', 'true');
+        $(this).parent(".box").find(".save-edits").show();
+    });
+    $(".save-edits .btn").click(function() {
+        $(this).parents(".save-edits").hide();
+        $(this).parents(".box").find(".inner-box").attr('contenteditable', 'false');
+        $(this).parents(".box").find(".edit-job").show();
+    });
 });
 $(document).on('click', '.dashboard .edit-exp-modal .inner .personal-info .fa', function() {
     $(this).parent(".personal-info").remove();
