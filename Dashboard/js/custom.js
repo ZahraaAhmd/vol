@@ -146,3 +146,29 @@ for (var i = 0; i < els_selectAll.length; i++) {
         e.target.select();
     });
 }
+
+$("document").ready(function() {
+    $(".manage-block").click(function() {
+        $(".manage-block").parent(".menu-block").removeClass("editable");
+        $(this).parent(".menu-block").addClass("editable");
+        $(".menu-overly").show();
+
+    });
+    $(".add-new").click(function() {
+
+        $val1 = $(this).parents(".inner").find(".first-val option:selected").text();
+        $val2 = $(this).parents(".inner").find(".second-val option:selected").text();
+        $(this).parents(".inner").find(".added-blocks").append('<div class="personal-info">' + $val1 + ' - ' + $val2 + ' <i class="fa fa-close"></i></div>')
+    });
+    $(".add-new2").click(function() {
+        $val3 = $(this).parents(".inner").find("input.interest").val();
+        $(this).parents(".inner").find(".added-blocks").append('<div class="personal-info">' + $val3 + ' <i class="fa fa-close"></i></div>')
+    });
+    $(".close-modal").click(function() {
+        $(this).parents(".menu-block").removeClass("editable");
+        $(".menu-overly").hide();
+    })
+});
+$(document).on('click', '.dashboard .edit-exp-modal .inner .personal-info .fa', function() {
+    $(this).parent(".personal-info").remove();
+});

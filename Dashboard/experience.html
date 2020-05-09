@@ -58,6 +58,7 @@
 
     <!-- start dashborard section -->
     <section class="dashboard">
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-auto dash-menu">
@@ -85,28 +86,129 @@
                         <p><span class="blue-text">Member since:</span> 22 Jul 2018</p>
                         <p><span class="blue-text">Last login:</span> 10 May 2020</p>
                     </div>
-                    <div class="menu-block">
+                    <div class="menu-block ">
                         <h4>Languages</h4>
                         <div class="personal-info">English - Fluent</div>
-                        <small class="green">Manage Languages</small>
+                        <small class="green manage-block">Manage Languages</small>
+                        <div class="edit-exp-modal">
+                            <div class="inner">
+                                <div class="text-right close-modal">×</div>
+                                <form>
+                                    <label class="green-text w-100">Add Language</label>
+                                    <div class="row form-group">
+                                        <div class="col-6 px-0">
+                                            <select class="form-control first-val">
+                                                <option selected disabled>Select language</option>
+                                                <option>Arabic</option>
+                                                <option>English</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-4 px-0 second-val">
+                                            <select class="form-control">
+                                                <option selected disabled>Level</option>
+                                                <option>basic</option>
+                                                
+                                            </select>
+                                        </div>
+                                        <div class="col-2 px-0">
+                                            <button type="button" class="btn btn-success add-new">+ Add</button>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group added-blocks">
+                                        <label class="green-text w-100">My Language</label>
+                                        <div class="personal-info">English - Fluent <i class="fa fa-close"></i></div>
+                                    </div>
+                                    <div class="options">
+                                        <button class="btn btn-default cancel">cancel</button>
+                                        <button class="btn btn-success">Save changes</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                     <div class="menu-block">
                         <h4>Interest</h4>
                         <div class="personal-info">Community support</div>
                         <div class="personal-info">People with Strength </div>
-                        <small class="green">Manage Interest</small>
+                        <small class="green manage-block">Manage Interest</small>
+                        <div class="edit-exp-modal">
+                            <div class="inner">
+                                <div class="text-right close-modal">×</div>
+                                <form>
+                                    <label class="green-text w-100">Manage Interests</label>
+                                    <div class="border-block mb-3">
+                                        <div class="row form-group mb-3">
+                                            <div class="col-10 px-0">
+                                                <input class="form-control no-border mb-3 interest" placeholder="Add Interest">
+
+                                            </div>
+                                            <div class="col-2 px-0">
+                                                <button type="button" class="btn btn-success add-new2">+ Add</button>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group added-blocks mb-3">
+                                            <div class="personal-info">Community support <i class="fa fa-close"></i></div>
+                                            <div class="personal-info">People with Strength <i class="fa fa-close"></i></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="options">
+                                        <button class="btn btn-default cancel">cancel</button>
+                                        <button class="btn btn-success">Save changes</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                     <div class="menu-block">
                         <h4>Medical Profile</h4>
                         <div class="personal-info">Diabetes</div>
                         <div class="personal-info">Asthma</div>
-                        <small class="green">Manage Medical Profile</small>
+                        <small class="green manage-block">Manage Medical Profile</small>
                     </div>
                     <div class="menu-block">
                         <h4>Skills</h4>
                         <div class="personal-info">Teacher/Trainer - Experienced </div>
                         <div class="personal-info">Visual Art - Experienced</div>
-                        <small class="green">Manage Skills</small>
+                        <small class="green manage-block">Manage Skills</small>
+                        <div class="edit-exp-modal">
+                            <div class="inner">
+
+                                <div class="text-right close-modal">×</div>
+                                <form>
+                                    <label class="green-text w-100">Add Skills</label>
+                                    <div class="row form-group">
+                                        <div class="col-6 px-0">
+                                            <select class="form-control first-val">
+                                                <option selected disabled>Select</option>
+                                                <option>Teacher/Trainer</option>
+                                                <option>Visual Art</option>
+                                                <option>Technical skills</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-4 px-0 second-val">
+                                            <select class="form-control">
+                                                <option selected disabled>Level</option>
+                                                <option>Experienced</option>
+                                                <option>Area of interest</option>
+                                                
+                                            </select>
+                                        </div>
+                                        <div class="col-2 px-0">
+                                            <button type="button" class="btn btn-success add-new">+ Add</button>
+                                        </div>
+                                    </div>
+                                    <div class="row form-group added-blocks">
+                                        <label class="green-text w-100">My skills</label>
+                                        <div class="personal-info">Teacher/Trainer - Experienced <i class="fa fa-close"></i></div>
+                                    </div>
+                                    <div class="options">
+                                        <button class="btn btn-default cancel">cancel</button>
+                                        <button class="btn btn-success">Save changes</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                     <div class="menu-block">
                         <h4>Social Media Links</h4>
@@ -115,9 +217,10 @@
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa fa-facebook"></i></a>
                         </div>
-                        <small class="green">Manage Links</small>
+                        <small class="green manage-block">Manage Links</small>
                     </div>
                 </div>
+
                 <div class="col-md right">
                     <div class="row top-col">
                         <div class="col-md-8 col-12">
@@ -492,6 +595,7 @@
         </div>
         </div>
         </div>
+        <div class="menu-overly"></div>
     </section>
     <!-- end dashborard section -->
     <!-- start footer -->
@@ -600,6 +704,8 @@
     <script src="js/custom.js "></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
     </script>
 </body>
 

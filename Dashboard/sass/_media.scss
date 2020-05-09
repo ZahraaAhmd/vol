@@ -12,6 +12,12 @@
         .bg-light .navbar-nav .nav-item .nav-link {
             padding: 10px;
         }
+        .dashboard .blocks {
+            padding: 20px 15px;
+        }
+        .dashboard .top-col .col-md-4 .blocks .hours {
+            font-size: 16px;
+        }
     }
     
     @media(max-width:1200px) {
@@ -28,6 +34,9 @@
     @media(max-width:1130px) {
         .vol-types .type {
             zoom: 0.8
+        }
+        .dashboard .edit-exp-modal .inner {
+            width: 550px;
         }
     }
     
@@ -105,6 +114,12 @@
         }
         .themes .col-6 {
             margin-bottom: 30px;
+        }
+        .dashboard .dash-menu {
+            position: absolute;
+            left: 0;
+            z-index: 9;
+            transform: translateX(-388px);
         }
     }
     
@@ -235,6 +250,15 @@
         .speakers .inner .row:nth-child(even) .col-3 {
             order: 1;
         }
+        .dashboard .top-col .col-md-4 {
+            padding: 0 0 0 0px;
+        }
+        .dashboard .ID-block {
+            margin: 0;
+            .col-4 {
+                padding: 0 5px;
+            }
+        }
     }
     
     @media(max-width:575.5px) {
@@ -318,6 +342,18 @@
             -ms-flex: 0 0 100%;
             flex: 0 0 100%;
             max-width: 100%;
+        }
+        .dashboard .training-box .col-md-3 img {
+            margin-bottom: 20px;
+        }
+        .dashboard .job-details .box .edit-job {
+            float: none;
+            width: 100%;
+            text-align: right;
+            font-size: 16px;
+        }
+        .dashboard .job-details .box {
+            padding: 25px 0;
         }
     }
     
