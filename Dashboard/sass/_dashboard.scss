@@ -329,6 +329,23 @@
         background-color: #ffffff;
         padding: 24px 30px;
         margin-bottom: 10px;
+        .options {
+            margin-top: 40px;
+            text-align: center;
+            .btn {
+                font-size: 20px;
+                width: 200px;
+                text-transform: capitalize;
+                line-height: 42px;
+                &.cancel {
+                    color: #5ba80c;
+                }
+                &.btn-success {
+                    border-radius: 10px;
+                    background-color: #a7d676;
+                }
+            }
+        }
     }
     .top-col {
         .col-md-8 {
@@ -468,23 +485,6 @@
             }
             .custom-control-label {
                 color: #0089ff;
-            }
-        }
-    }
-    .options {
-        margin-top: 40px;
-        text-align: center;
-        .btn {
-            font-size: 20px;
-            width: 200px;
-            text-transform: capitalize;
-            line-height: 42px;
-            &.cancel {
-                color: #5ba80c;
-            }
-            &.btn-success {
-                border-radius: 10px;
-                background-color: #a7d676;
             }
         }
     }
