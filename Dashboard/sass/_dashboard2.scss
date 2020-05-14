@@ -328,6 +328,15 @@
                 margin-top: 4px;
             }
         }
+        .show-all {
+            font-size: 14px;
+            line-height: 0.93;
+            color: #5ba80c;
+            cursor: pointer;
+            &.float-right {
+                margin-top: 4px;
+            }
+        }
     }
     .right {
         padding: 0 10px;
