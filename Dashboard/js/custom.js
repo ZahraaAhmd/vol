@@ -120,10 +120,6 @@ $("document").ready(function() {
         $(this).parent(".accordion-group").toggleClass("active")
     });
 
-    $(".add-field").click(function() {
-        $(this).slideUp();
-        $(".add-job form").slideDown(700);
-    });
 
 });
 
@@ -165,14 +161,23 @@ $("document").ready(function() {
         $val3 = $(this).parents(".inner").find("input.interest").val();
         $(this).parents(".inner").find(".added-blocks").append('<div class="personal-info">' + $val3 + ' <i class="fa fa-close"></i></div>')
     });
-    $(".close-modal").click(function() {
+    $(".close-modal,.edit-exp-modal .inner .options .btn").click(function() {
         $(this).parents(".menu-block").removeClass("editable");
         $(".menu-overly").hide();
     });
     $(".edit-job").click(function() {
         $(this).hide();
-        $(this).parent(".box").find(".inner-box").attr('contenteditable', 'true');
-        $(this).parent(".box").find(".save-edits").show();
+        $(this).parents(".box").find(".editable-block").attr('contenteditable', 'true').addClass("focused").focus();
+
+        $(this).parents(".box").find(".save-edits").show();
+    });
+    $(".dashboard .training-box .bottom .btn").click(function() {
+        $(this).parents(".train-part").hide();
+        $(".download-cert ").slideDown(500);
+    });
+    $(".dashboard .download-cert .back").click(function() {
+        $(this).parents(".download-cert").hide();
+        $(".train-part").show(400);
     });
     $(".save-edits .btn").click(function() {
         $(this).parents(".save-edits").hide();
@@ -183,3 +188,103 @@ $("document").ready(function() {
 $(document).on('click', '.dashboard .edit-exp-modal .inner .personal-info .fa', function() {
     $(this).parent(".personal-info").remove();
 });
+
+(function() {
+    var Uploader;
+
+    Uploader = function() {
+        'use-strict';
+        class Uploader {
+            constructor(element) {
+                this.bindEvents = this.bindEvents.bind(this);
+                this._$element = $(element);
+                this._$fileUpload = this._$element.find('[type="file"]');
+                this._$phantomBtn = this._$element.find('[data-trigger]');
+                this._$image = this._$element.find('[data-image]');
+                this.bindEvents();
+            }
+
+            bindEvents() {
+                var self;
+                self = this;
+
+                // Connect phantomBtn to uploadBtn
+                this._$phantomBtn.on('click', function() {
+
+                    return self._$fileUpload.trigger('click');
+
+                });
+
+                // Detect when file upload is changed
+                return this._$fileUpload.on('change', function() {
+                    var file, fileReader, max_size, types, uploader;
+                    uploader = $(this);
+                    file = $(this)[0].files[0];
+                    fileReader = new FileReader();
+                    max_size = 10000000;
+                    types = /(\.|\/)(gif|jpe?g|png)$/i;
+                    if (!types.test(file.type) || !types.test(file.name)) {
+                        alert('invalid file type');
+                        uploader.val('');
+                        return false;
+                    }
+                    if (file.size > max_size) {
+                        alert('invalid file size');
+                        uploader.val('');
+                        return false;
+                    }
+                    if (file) {
+                        fileReader.onload = function(e) {
+                            var imageSrc;
+                            imageSrc = e.target.result;
+                            self.renderImage(imageSrc);
+                        };
+                        fileReader.readAsDataURL(file);
+                    }
+                });
+            }
+
+            removeImage() {
+                return this._$image.attr('src', '');
+            }
+
+            renderImage(imageSrc) {
+                this._$image.attr('src', imageSrc);
+                return this.hidePhantomBtn();
+            }
+
+            hidePhantomBtn() {
+                return this._$phantomBtn.hide();
+            }
+
+            showPhtantomBtn() {
+                return this._$phantomBtn.show();
+            }
+        }
+
+        ;
+
+        Uploader.prototype._$element = null;
+
+        Uploader.prototype._$fileUpload = null;
+
+        Uploader.prototype._$phtantomBtn = null;
+
+        Uploader.prototype._$image = null;
+
+        return Uploader;
+
+    }.call(this);
+
+    this.Uploader = Uploader;
+
+    if ($('[data-uploader]').length > 0) {
+        $('[data-uploader]').each(function(index, element) {
+            return new Uploader(element);
+        });
+    }
+
+}).call(this);
+
+
+//# sourceURL=coffeescript
