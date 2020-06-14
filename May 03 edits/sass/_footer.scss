@@ -6,6 +6,9 @@ footer {
     color: $main-color;
     font-size: 16px;
     font-weight: 600;
+    &.footer2 {
+        padding-top: 40px;
+    }
     a {
         color: $main-color;
         font-size: 16px;

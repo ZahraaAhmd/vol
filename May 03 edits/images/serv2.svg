@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="158.087" height="159.646" viewBox="0 0 158.087 159.646">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Mask" d="M83.656 157.963a61.876 61.876 0 0 0 46.676-21.171c5.983-6.832 21.543 8.984 24.071 0 .554-1.968 8.006-26.623 0-49.142C140.675 49.035 107.612 0 83.656 0 37 0-21.926 143.246 8.242 157.963c18.019 8.79 29.839-19.815 32.242-17.485a61.823 61.823 0 0 0 43.172 17.485z" class="prefix__cls-1"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:none}.prefix__cls-4{fill:#191847}.prefix__cls-5{fill:#b28b67}.prefix__cls-7{fill:#e4e4e4}.prefix__cls-10{fill:#2b44ff}
+        </style>
+    </defs>
+    <g id="prefix__Human" transform="translate(-.987 -.027)">
+        <ellipse id="prefix__Background" cx="61.999" cy="61.945" fill="#f4d5ff" rx="61.999" ry="61.945" transform="translate(22.644 34.1)"/>
+        <path id="prefix__Mask-2" d="M83.656 157.963a61.876 61.876 0 0 0 46.676-21.171c5.983-6.832 21.543 8.984 24.071 0 .554-1.968 8.006-26.623 0-49.142C140.675 49.035 107.612 0 83.656 0 37 0-21.926 143.246 8.242 157.963c18.019 8.79 29.839-19.815 32.242-17.485a61.823 61.823 0 0 0 43.172 17.485z" class="prefix__cls-1" data-name="Mask" transform="translate(.987 .027)"/>
+        <g id="prefix__Human-2" clip-path="url(#prefix__clip-path)" data-name="Human" transform="translate(.987 .027)">
+            <g id="prefix__Human-3" data-name="Human" transform="translate(-9.035 -5.179)">
+                <g id="prefix__Head_Front" data-name="Head/Front" transform="translate(50.336)">
+                    <path id="prefix__Hair_Back" d="M19.287 39.686c7.016 0 9.567-8.392 13.553-13 2.852-3.295 7.719-2.312 9.16-6.925C45.622 8.164 35.926 0 23.277 0S2.1 7.16.257 17.923a18.842 18.842 0 0 0 19.03 21.763z" class="prefix__cls-4" data-name="Hair Back" transform="translate(18.158 7.973)"/>
+                    <g id="prefix__Head" transform="translate(33.148 19.013)">
+                        <path id="prefix__Head-2" d="M0 44.772l5.072-23.619C2.243 17.836.329 13.77.649 9.215 1.571-3.91 19.857-1.022 23.414 5.6s3.135 23.428-1.462 24.612c-1.834.472-5.739-.684-9.714-3.078l2.5 17.636z" class="prefix__cls-5" data-name="Head"/>
+                    </g>
+                    <path id="prefix__Hair" d="M8.046 26.682c-.815 0-2.128-.784-3.427-2.044a16.042 16.042 0 0 1-3.6-5.333 12.758 12.758 0 0 1-.815-7.261A15.429 15.429 0 0 1 4.9 3.908 13.841 13.841 0 0 1 9.451.888 12.7 12.7 0 0 1 14.167 0a18.059 18.059 0 0 1 9.826 3.273c2.518 1.719 4.363 3.848 4.486 5.178a.948.948 0 0 1-.888 1.1c-2.973.558-8.655 3.355-13.016 7.071a3.865 3.865 0 0 0-1.8-.443A3.735 3.735 0 0 0 9 19.854a3.586 3.586 0 0 0 .757 2.21 11.783 11.783 0 0 0-1.707 4.617z" class="prefix__cls-4" transform="translate(29.855 15.104)"/>
+                </g>
+                <g id="prefix__Bottom_Skinny_Jeans_1" data-name="Bottom/Skinny Jeans 1" transform="translate(0 114.69)">
+                    <path id="prefix__Leg" fill="#997659" d="M0 0l23.1 75.452 11.19 64.168h8.774L31.24 0z" transform="translate(78.573)"/>
+                    <path id="prefix__Leg-2" d="M17.172 0c1.569 41.427-.277 62.8-.629 66.56S11.384 94.729 0 140.883l9.349-3.208c17.991-42.33 24.121-64.33 26.185-69.888S43.078 39.633 51.975 0z" class="prefix__cls-5" data-name="Leg" transform="translate(53.137)"/>
+                    <g id="prefix__Left_Shoe" data-name="Left Shoe" transform="translate(51.564 122.049)">
+                        <path id="prefix__shoe" d="M2.746 3.215a1.228 1.228 0 0 0-1.575.827L0 8.166a39.367 39.367 0 0 0 .553 4.842h34.623s1.35-4.458-1.558-4.813-4.831-.642-4.831-.642L12.694.385a.614.614 0 0 0-.817.326l-1.034 2.508a13.922 13.922 0 0 1-4.375 1.254z" class="prefix__cls-7" transform="translate(.614 11.525)"/>
+                    </g>
+                    <g id="prefix__Right_Shoe" data-name="Right Shoe" transform="translate(109.266 122.049)">
+                        <path id="prefix__shoe-2" d="M2.746 3.215a1.228 1.228 0 0 0-1.575.827L0 8.166a39.367 39.367 0 0 0 .553 4.842h34.623s1.35-4.458-1.558-4.813-4.831-.642-4.831-.642L12.694.385a.614.614 0 0 0-.817.326l-1.034 2.508a13.922 13.922 0 0 1-4.375 1.254z" class="prefix__cls-7" data-name="shoe" transform="translate(.614 11.525)"/>
+                    </g>
+                    <path id="prefix__Bottom" fill="#69a1ac" d="M0 0l9.822 38.442h30L35.348 0z" transform="translate(75.504)"/>
+                    <path id="prefix__Bottom-2" fill="#89c5cc" d="M3.136 0c-4.847 14.518-1.841 38.442-1.841 38.442h30.613L40.326 0z" data-name="Bottom" transform="translate(66.843)"/>
+                </g>
+                <g id="prefix__Body_Long_Sleeve_1" data-name="Body/Long Sleeve 1" transform="translate(16.306 49.974)">
+                    <path id="prefix__Skin" d="M19.67 51.779c-.912-1.365-1.934-2.73-4.791-1.86C9.794 51.467 5.6 54.978.56 50.8c-.619-.513-1.141-2.191.827-3.169 4.9-2.436 12.1-6.894 13.223-8.537C16.9 35.737 30.142 0 30.142 0l10.873 1.578S23.509 39.526 22.244 41.716c-1.9 3.285.334 9.008 1.205 12.037a3.689 3.689 0 0 1-1.02.159c-1.401 0-2.047-1.067-2.759-2.133zm108.1-25.259l-18.782-9.365 5.064-10.363 18.53 15.7a52.727 52.727 0 0 1 12.906 6.258c.786.824 1.692 2.443-1.771 1.931s-7.129-.893-7.693.261 1.444 2.72.361 4.253a.455.455 0 0 1-.393.2q-1.676-.003-8.224-8.875z" class="prefix__cls-5" transform="translate(0 47.872)"/>
+                    <path id="prefix__Coat_Back" d="M0 2.8L6.517 0C17.609 21.926 33.11 42.723 57.42 59.309l-4.764 10.16c-20.963-9.99-40.634-17.454-49.832-34.391C-.264 29.394.408 9.889 0 2.8z" class="prefix__cls-10" data-name="Coat Back" transform="rotate(5.13 30.882 870.178)"/>
+                    <path id="prefix__Shirt" fill="#fff" d="M0 66.42s28.948 3.067 45.57 0c1.373-.253 1.59-2.55.953-4.109C36.608 38.039 29.809 16.859 29.809 0c-2.729 1.375-9.552.412-9.552.412C8.033 17.786 2.414 37.721 0 66.42z" transform="translate(52.445 1.362)"/>
+                    <path id="prefix__Coat_Front" d="M13.869 132.552c1.319-27.528 11.477-60.447 22-88.4C28.1 51.871 19.035 64.81 11.706 86.349L0 83.347C11.929 31.989 46.879 5.5 53.661.774l.2-.456h.468c.315-.212.482-.318.482-.318l-.018.318h5.094c1.186 6.97 4.927 101.358 16.477 132.234z" class="prefix__cls-10" data-name="Coat Front" transform="translate(14.873)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

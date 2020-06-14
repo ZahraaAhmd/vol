@@ -156,3 +156,65 @@ img {
 .tab-content {
     padding-top: 70px;
 }
+
+.form-control,
+.custom-select {
+    border-radius: 8px;
+    border: solid 1px #d5d5d5;
+    background-color: #ffffff;
+    color: #4d4d4d;
+    height: 45px;
+    &::placeholder {
+        color: #d5d5d5;
+    }
+    outline: none;
+    box-shadow: none;
+    &:focus {
+        box-shadow: none;
+        border-color: #a7d676;
+    }
+}
+
+.form-group {
+    label {
+        font-size: 18px;
+        font-weight: 600;
+        color: #5e5e5e;
+        margin-bottom: 3px;
+    }
+}
+
+.custom-select {
+    background: url("../images/drop3.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #5ba80c;
+    background-color: #5ba80c;
+}
+
+.orange-text {
+    color: $orange
+}
+
+.blue-text {
+    color: #0f497b !important;
+}
+
+.green-text {
+    color: #5ba80c;
+}
+
+.app-title {
+    font-family: "Avenir-Roman";
+    font-size: 20px;
+    font-weight: bold;
+    color: #4d4d4d;
+    margin-bottom: 10px;
+    &.small {
+        font-size: 16px;
+    }
+}

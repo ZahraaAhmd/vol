@@ -149,6 +149,50 @@ h5,
     right: 6px;
 }
 
+.dashboard .top-col .col-md-4 {
+    padding: 0 10px 0 0;
+}
+
+.dashboard .top-col .col-md-4 .blocks .hours span {
+    float: left !important;
+}
+
+.dashboard .copy-link-inner {
+    direction: ltr;
+}
+
+.dashboard .training-box .train-info img {
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+.dashboard .edit-exp-modal .inner {
+    right: calc(100% + 10px);
+    left: auto;
+}
+
+.dashboard .dash-menu .menu-block.editable::after {
+    left: -10px;
+    right: auto;
+}
+
+.dashboard .edit-exp-modal .inner .close-modal {
+    left: 25px;
+    right: auto;
+}
+
+.dashboard .edit-exp-modal .inner .options {
+    text-align: left;
+}
+
+.dashboard .job-details .box .edit-job {
+    float: left;
+}
+
+.dashboard .blocks .save-edits .options {
+    text-align: left !important;
+}
+
 @media (min-width: 992px) {
     .hero.hero-inner .inner-block .hero-bg {
         padding-right: 140px;
