@@ -550,6 +550,32 @@
             }
         }
     }
+    &#feedback {
+        @media (min-width: 768px) {
+            .modal-dialog {
+                max-width: 800px;
+            }
+        }
+        .feedback-inner {
+            width: 100%;
+            max-width: 570px;
+            margin: 45px auto 20px auto;
+            h4 {
+                font-family: "Avenir";
+                font-size: 28px;
+                font-weight: 600;
+                color: #4d4d4d;
+                margin-bottom: 25px;
+            }
+            textarea {
+                height: 195px;
+            }
+            .btn {
+                width: 232px;
+                line-height: 28px;
+            }
+        }
+    }
 }
 
 
