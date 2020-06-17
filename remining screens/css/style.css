@@ -1069,6 +1069,7 @@ img {
 .modal#feedback .feedback-inner .btn {
   width: 232px;
   line-height: 28px;
+  margin-top: 50px;
 }
 
 /**** start section FAQ style ****/
