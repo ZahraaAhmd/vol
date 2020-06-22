@@ -1484,6 +1484,44 @@
                     text-align: center;
                     margin-top: 45px;
                 }
+                .login-slider {
+                    max-width: 700px;
+                    text-align: center;
+                    margin: 100px auto 30px auto;
+                    .carousel-item {
+                        img {
+                            margin-bottom: 50px;
+                            max-height: 463.4px;
+                        }
+                        p {
+                            max-width: 510px;
+                            margin: 0 auto;
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 1.33;
+                            color: #4d4d4d;
+                        }
+                    }
+                    .carousel-indicators {
+                        position: relative;
+                        margin: 20px 0 0 0;
+                        align-items: center;
+                        li {
+                            width: 11px;
+                            height: 12px;
+                            background-color: #4d4d4d;
+                            opacity: 1;
+                            border-radius: 50%;
+                            margin-right: 6px;
+                            margin-left: 6px;
+                            &.active {
+                                width: 16px;
+                                height: 17px;
+                                background-color: #5ba80c;
+                            }
+                        }
+                    }
+                }
             }
             
             .small-box {
