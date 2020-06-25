@@ -1528,3 +1528,84 @@
                 max-width: 400px;
                 margin: 50px auto 80px auto
             }
+            /***** success-story page ******/
+            
+            .success-story {
+                padding-bottom: 40px;
+                .container {
+                    max-width: 1400px;
+                }
+                .block-head {
+                    margin-bottom: 30px;
+                    p {
+                        width: 100%;
+                        max-width: 880px;
+                        font-size: 20px;
+                        line-height: 1.5;
+                        color: #5e5e5e;
+                        margin: 0 auto;
+                        z-index: 9;
+                    }
+                }
+                .story {
+                    padding: 30px 0;
+                    @media(min-width: 1200px) {
+                        padding: 70px;
+                    }
+                    margin: 0;
+                    align-items: center;
+                    img {
+                        border-radius: 10px;
+                        margin-bottom: 20px;
+                    }
+                    .story-content {
+                        @media(min-width: 1200px) {
+                            padding-left: 100px;
+                        }
+                    }
+                    &:nth-child(odd) {
+                        .col-md-6 {
+                            &.story-content {
+                                @media(min-width: 1200px) {
+                                    padding-right: 100px;
+                                    padding-left: 15px;
+                                }
+                            }
+                        }
+                    }
+                    @media(min-width:768px) {
+                        &:nth-child(odd) {
+                            .col-md-6 {
+                                order: 2;
+                                &.story-content {
+                                    order: 1;
+                                }
+                            }
+                        }
+                    }
+                    h3 {
+                        font-size: 32px;
+                        font-weight: bold;
+                        color: #183b56 !important;
+                    }
+                    .author-pos {
+                        font-family: "CeraPro";
+                        font-size: 14px;
+                        color: #1565b4;
+                        margin-bottom: 20px;
+                        .dote {
+                            padding: 0 5px;
+                            font-size: 25px;
+                            line-height: 3px;
+                            color: #183b56
+                        }
+                    }
+                    p {
+                        font-size: 22px;
+                        font-weight: 500;
+                        line-height: 1.46;
+                        color: #0f497b;
+                        margin-bottom: 24px;
+                    }
+                }
+            }

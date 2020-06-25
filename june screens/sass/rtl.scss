@@ -244,6 +244,45 @@ h5,
     margin-right: 0;
 }
 
+
+/***** success-story page ******/
+
+.success-story {
+    padding-bottom: 40px;
+    .container {
+        max-width: 1400px;
+    }
+    .block-head {
+        margin-bottom: 30px;
+        p {
+            width: 100%;
+            max-width: 880px;
+            font-size: 20px;
+            line-height: 1.5;
+            color: #5e5e5e;
+            margin: 0 auto;
+            z-index: 9;
+        }
+    }
+    .story {
+        .story-content {
+            @media(min-width: 1200px) {
+                padding-right: 100px;
+            }
+        }
+        &:nth-child(odd) {
+            .col-md-6 {
+                &.story-content {
+                    @media(min-width: 1200px) {
+                        padding-left: 100px;
+                        padding-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 992px) {
     .hero.hero-inner .inner-block .hero-bg {
         padding-right: 140px;
