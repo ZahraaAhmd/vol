@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="433" viewBox="0 0 414 433">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#e6e6e6}.prefix__cls-2{fill:#a7d676}
+        </style>
+    </defs>
+    <g id="prefix__Group_457" data-name="Group 457" transform="translate(15110.279 15738)">
+        <path id="prefix__Path_2653" d="M779.361 541.376c-114.141 0-207-92.86-207-207s92.859-207 207-207 207 92.86 207 207-92.861 207-207 207zm0-412c-113.037 0-205 91.962-205 205s91.963 205 205 205 205-91.963 205-205-91.963-205-205-205z" class="prefix__cls-1" data-name="Path 2653" transform="translate(-15682.64 -15853.465)"/>
+        <path id="prefix__Path_2654" d="M779.361 483.376c-82.159 0-149-66.841-149-149s66.841-149 149-149 149 66.841 149 149-66.841 149-149 149zm0-296c-81.056 0-147 65.944-147 147s65.944 147 147 147 147-65.944 147-147-65.945-147-147-147z" class="prefix__cls-1" data-name="Path 2654" transform="translate(-15682.64 -15853.465)"/>
+        <path id="prefix__Path_2655" d="M779.361 424.717a90.342 90.342 0 1 1 90.339-90.342 90.342 90.342 0 0 1-90.339 90.342zm0-178.683a88.342 88.342 0 1 0 88.339 88.342 88.342 88.342 0 0 0-88.342-88.342z" class="prefix__cls-1" data-name="Path 2655" transform="translate(-15682.64 -15853.465)"/>
+        <circle id="prefix__Ellipse_506" cx="45.873" cy="45.873" r="45.873" class="prefix__cls-2" data-name="Ellipse 506" transform="translate(-14949.152 -15564.963)"/>
+        <circle id="prefix__Ellipse_507" cx="14.545" cy="14.545" r="14.545" class="prefix__cls-2" data-name="Ellipse 507" transform="translate(-14885.006 -15738)"/>
+        <circle id="prefix__Ellipse_508" cx="14.545" cy="14.545" r="14.545" class="prefix__cls-2" data-name="Ellipse 508" transform="translate(-15067.381 -15392.271)"/>
+        <circle id="prefix__Ellipse_509" cx="14.545" cy="14.545" r="14.545" class="prefix__cls-1" data-name="Ellipse 509" transform="translate(-15065.381 -15517.271)"/>
+        <circle id="prefix__Ellipse_510" cx="14.545" cy="14.545" r="14.545" class="prefix__cls-1" data-name="Ellipse 510" transform="translate(-14793.381 -15615.271)"/>
+        <circle id="prefix__Ellipse_511" cx="14.545" cy="14.545" r="14.545" class="prefix__cls-1" data-name="Ellipse 511" transform="translate(-14736.381 -15434.271)"/>
+        <circle id="prefix__Ellipse_512" cx="14.545" cy="14.545" r="14.545" class="prefix__cls-2" data-name="Ellipse 512" transform="translate(-14778.714 -15498.563)"/>
+        <circle id="prefix__Ellipse_513" cx="14.545" cy="14.545" r="14.545" class="prefix__cls-2" data-name="Ellipse 513" transform="translate(-15097.59 -15637.302)"/>
+        <circle id="prefix__Ellipse_514" cx="14.545" cy="14.545" r="14.545" class="prefix__cls-2" data-name="Ellipse 514" transform="translate(-14863.748 -15334.09)"/>
+    </g>
+</svg>
