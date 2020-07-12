@@ -1430,12 +1430,57 @@
                         line-height: 1.18;
                         color: #4d4d4d;
                     }
+                    h5 {
+                        font-family: "Avenir-Roman";
+                        font-size: 22px;
+                        font-weight: 600;
+                        line-height: 1.18;
+                        color: #4d4d4d;
+                    }
                     .form-group {
                         label {
                             font-size: 18px;
                             font-weight: 600;
                             color: #5e5e5e;
                             margin-bottom: 3px;
+                        }
+                    }
+                    .small-space {
+                        .col-4 {
+                            padding: 5px;
+                        }
+                    }
+                    .custom-radio-box {
+                        padding: 0 !important;
+                        margin: 0 !important;
+                        width: 100%;
+                        .custom-control-input {
+                            position: absolute;
+                            z-index: -1;
+                            opacity: 0;
+                        }
+                        .custom-control-label {
+                            border-radius: 10px;
+                            background: #f1f1f1;
+                            font-size: 20px;
+                            text-transform: capitalize;
+                            display: block;
+                            width: 100%;
+                            line-height: 0.83;
+                            text-align: center;
+                            color: #8f9489;
+                            padding: 20px 10px;
+                            margin-left: 3px;
+                            transition: all 0.3s ease;
+                            max-width: 100%;
+                            &::after,
+                            &::before {
+                                opacity: 0;
+                            }
+                        }
+                        .custom-control-input:checked~.custom-control-label {
+                            background: #a7d676;
+                            color: #fff;
                         }
                     }
                     .btn {

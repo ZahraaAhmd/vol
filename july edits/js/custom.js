@@ -316,3 +316,12 @@ $(document).on('click', '.dashboard .edit-exp-modal .inner .personal-info .fa', 
 
 
 //# sourceURL=coffeescript
+$(function() {
+
+    $('.multi-select').multiselect({
+
+        includeSelectAllOption: true
+
+    });
+
+});
